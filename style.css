@@ -1,0 +1,58 @@
+.header .navbar{
+   
+ 
+    background-color:rgb(81, 81, 190);
+    text-align: center;
+    margin: 20 px;
+    width: 200 px;
+    padding: 1000 px;
+    overflow: hidden;
+    color: rgb(255, 248, 248);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #020e10;
+    position: fixed;
+    top: 50;
+    left: 0;
+    width: 100%;
+  }
+  
+  li {
+    
+    
+    padding: 5 px;
+    margin: 5 px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+ 
+    text-shadow: rgb(77, 66, 66);
+    color: 
+    rgb(85, 77, 77);
+  }
+  
+  
+  .left{
+    float: left;
+  }
+  .right{
+    float: right;
+  }
