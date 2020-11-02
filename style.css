@@ -1,5 +1,26 @@
-.header .navbar{
-    
+hr{
+    width:90%;
+    text-align:left;
+    margin-left:40px;
+    padding-left: 20px;
+    margin-right: 40px;
+    margin-top: 50px;
+
+  }
+    h3{
+      /* margin: 80px; */
+      padding-top: 120px;
+      padding-left: 40px;
+    }
+    h2{
+     padding-left: 40px;
+    }
+    p{
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  .header .navbar{
+   
     font-size: 13px;
     background-color:rgb(81, 81, 190);
     text-align: center;
@@ -22,11 +43,12 @@
     overflow: hidden;
     background-color: #020e10;
     position: fixed;
-    top: 50;
+    top: 40;
     left: 0;
     width: 100%;
-     height: 50px;
+    height: 50px;
   }
+
   
   li {
     padding: 5 px;
@@ -41,16 +63,16 @@
     text-decoration: none;
   }
   .footer {
-    background-color: #0099cc;
+    background-color:rgb(77, 66, 66);
     color: #ffffff;
     text-align: center;
     font-size: 12px;
     padding: 15px;
-    margin-top: 700px;
+    margin-top:350px;
     bottom: 0;
     left: 0;
+    padding-top:20px;
   }
-  
   
   li a:hover {
  
@@ -58,38 +80,59 @@
     color: rgb(85, 77, 77);
   }
   
-  
+  #sidebar{
+    display: none;
+  }
   .left{
     float: left;
   }
   .right{
     float: right;
   }
-@media only screen and (max-width:800px) {
+  .closebtn{
+    display: none;
+    float: left;
+  }
+  .col-2{
+    width: 80%;
+    margin-left: 40px;
+    float: left;
+    padding-top: 40px;
+  }
+  .col-1{
+    width: 80%;
+
+  }
+  
+  @media only screen and (min-width: 800px) {
+    /* For tablet: */
+    .col-1 {width: 40%;
+      float: left;
+    }
+    .col-2 {width: 40%;
+    float: left;
+    padding-right: 50px;
+  }
+  }
+  @media only screen and (max-width:800px) {
     /* For tablets: */
     .header .navbar{
       height: 50px;
+      padding-bottom: 10px;
     }
-    ul {
-      /* list-style-type: none; *;*/
+    #sidebar{
       display: grid;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #020e10;
-      position: fixed;
-      top: 50;
-      left: 0;
-      width: 100%;
-      height: 200px;
-      
-    }
-    .left{
       float: left;
     }
-    .right{
-      float: left;
+    #head-bar{
+      display: grid;
+      text-align: center;
     }
-    
+    #menu-bar{
+      display: none;
+    }
+   
+   
+   
   }
   
